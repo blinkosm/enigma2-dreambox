@@ -1,4 +1,4 @@
-#include <lib/dvb/epgcache.h>
+9#include <lib/dvb/epgcache.h>
 
 #undef EPG_DEBUG
 
@@ -21,7 +21,7 @@
 #include <dvbsi++/descriptor_tag.h>
 
 /* Interval between "garbage collect" cycles */
-#define CLEAN_INTERVAL 8000    //  1 min
+#define CLEAN_INTERVAL 800    //  1 min
 
 struct DescriptorPair
 {
